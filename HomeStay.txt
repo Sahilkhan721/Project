@@ -1,0 +1,211 @@
+----------------------------------------------------
+homestay.component.ts
+-----------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <h1 class="text-center text-default">HomeStay</h1>
+            <table align=center>
+               
+                <div class="text-center">
+            <tr>
+                <td><b>Select Country:</b></td>
+                <select name="State"><br>
+                    <option value>Select</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Denmark">Denmark</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="Finland">Finland</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Honduras">Honduras</option>
+                    <option value="India">Australia</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Oman">Oman</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Serbia">Australia</option>
+                    <option value="Tonga">Tonga</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Vanuatu">Vanuatu</option>
+                    <option value="Zambia">Zambia</option>
+                </select>
+            </tr>
+           
+            <tr>
+                <td><b>Select State:</b></td>
+                <td>
+                    <select name="State"><br>
+                        <option value>Select</option>
+                        <option value="Kabul">Kabul</option>
+                        <option value="Kandaha">Kandaha</option>
+                        <option value="Amazonas">Amazonas</option>
+                        <option value="Pará">Pará</option>
+                        <option value="Manitoba">Manitoba</option>
+                        <option value="Nunavut">Nunavut</option>
+                        <option value="Hillerod">Hillerod</option>
+                        <option value="Kobenhavn">Kobenhavn</option>
+                        <option value="As Suways">As Suways</option>
+                        <option value="Asyut">Asyut</option>
+                        <option value="Mellersta Finland">Mellersta Finland</option>
+                        <option value="Södra Österbotten">Södra Österbotten</option>
+                        <option value="Bavaria">Bavaria</option>
+                        <option value="Lower Saxony">Lower Saxony</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Maharastra">Maharastra</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Karachi">Karachi</option>
+                        <option value="Lahore">Lahore</option>
+                    </select>
+            </tr>
+        
+            <tr>
+                <td><b>Select City:</b></td>
+                <td>
+                    <select name="City"><br>
+                        <option value>Select</option>
+                        <option value="Herat">Herat</option>
+                        <option value="Balkh">Balkh</option>
+                        <option value="Macapá">Macapá</option>
+                        <option value="Leticia">Leticia</option>
+                        <option value="Macapá">Macapá</option>
+                        <option value="Kanpur">Kanpur</option>
+                        <option value="Lucknow">Lucknow</option>
+                        <option value="Ghaziabad">Ghaziabad</option>
+                        <option value="Agra">Agra</option>
+                        <option value="Firozabad">Firozabad</option>
+                        <option value="Mehrauli">Mehrauli</option>
+                        <option value="Shergarh">Shergarh</option>
+                        <option value="Shahjehabanad">Shahjehabanad</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Madurai">Madurai</option>
+                        <option value="Jaipur">Jaipur</option>
+                        <option value="Jaisalmer">Jaisalmer</option>
+                        <option value="Udaipur">Udaipur</option>
+                        <option value="Bikaner">Bikaner</option>
+
+                    </select>
+            </tr>
+            <tr>
+                <td><b>Check in Date:</b></td>
+                <td><input type=date name=dob size=20>
+            </tr>
+            <tr>
+                <td><b>Check out Date</b></td>
+                <td><input type=date name=dob size=20>
+            </tr>
+        
+            <tr>
+                <td><b>Select Guests:</b></td>
+
+                    <select name="Guests"><br>
+
+                        <option value>Select</option>
+                        <option value="1room,1adult,1children">1room,1adult,1children</option>
+                        <option value="2room,2adult,2children">2room,2adult,2children</option>
+                        <option value="3room,3adult,3children">3room,3adult,3children</option>
+                    </select>
+            </tr>
+        
+            <tr>
+                <td><b>Select Rooms:</b></td>
+                <td>
+                    <select name="City"><br>
+                        <option value>Select</option>
+                        <option value="1BHK">1BHK</option>
+                        <option value="2BHK">2BHK</option>
+                        <option value="3BHK">3BHK</option>
+                    </select>
+            </tr>
+
+            <tr>
+                <td><b>Select Home:</b></td>
+                <td>
+                    <select name="City"><br>
+                        <option value>Select</option>
+                        <option value="Herat-Villas">Herat-Villas</option>
+                        <option value="Balkh-Villas">Balkh-Villas</option>
+                        <option value="Macapá-Villas">Macapá-Villas</option>
+                        <option value="Kanpur-Villas">Kanpur-Villas</option>
+                        <option value="Lucknow-Villas">Lucknow-Villas</option>
+                        <option value="Ghaziabad-Villas">Ghaziabad-Villas</option>
+                        <option value="Agra-Villas">Agra-Villas</option>
+                        <option value="Firozabad-Villas">Firozabad-Villas</option>
+                        <option value="Mehrauli-Villas">Mehrauli-Villas</option>
+                        <option value="Shergarh-Villas">Shergarh-Villas</option>
+                        <option value="Shahjehabanad-Villas">Shahjehabanad-Villas</option>
+                        <option value="Bangalore-Villas">Bangalore-Villas</option>
+                        <option value="Chennai-Villas">Chennai-Villas</option>
+                        <option value="Madurai-Villas">Madurai-Villas</option>
+                        <option value="Jaipur-Villas">Jaipur-Villas</option>
+                        <option value="Jaisalmer-Villas">Jaisalmer-Villas</option>
+                        <option value="Udaipur-Villas">Udaipur-Villas</option>
+                        <option value="Bikaner-Villas">Bikaner-Villas</option>
+                    </select>
+            </tr>
+
+
+            <div class="text-default">
+                <button type="confirm" value="Confirm" class="btn btn-primary">Confirm</button>
+            </div>
+            </div>
+            </table>
+            </body>
+            </html>
+    
+
+ 
+
+-------------------------------------------------------------------
+style.css
+-------------------------------------------------------------------
+input[type=date]
+{
+    width: 120%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 4px;
+    box-sizing: content-box;
+}
+
+select
+{
+    width: 120%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 4px;
+    box-sizing: content-box;
+}
+
+.container {
+    text-align-last: center;
+    border-radius: 5px;
+    background-color:lightslategrey;
+    padding: 40px;
+  
+}
+
+body
+{
+    text-align-last: center;
+    background-image: url(assets/blur.jpg);
+}
